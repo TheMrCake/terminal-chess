@@ -1,0 +1,19 @@
+[package]
+name = "terminal-chess"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.97"
+color-eyre = "0.6.3"
+crossterm = "0.27.0"
+fakeit = "1.3.0"
+itertools = "0.14.0"
+ratatui = "0.29.0"
+tui-input = "0.9.0"
+unicode-width = "0.2.0"
+
+
+[[bin]]
+name = "terminal-chess"
+path = "src/main.rs"
